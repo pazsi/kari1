@@ -1,8 +1,8 @@
-import * as THREE from '/js/three.module.js';
+import * as THREE from '/three.module.js';
 
-import { DDSLoader } from '/js/loaders/DDSLoader.js';
-import { MTLLoader } from '/js/loaders/MTLLoader.js';
-import { OBJLoader } from '/js/loaders/OBJLoader.js';
+import { DDSLoader } from '/loaders/DDSLoader.js';
+import { MTLLoader } from '/loaders/MTLLoader.js';
+import { OBJLoader } from '/loaders/OBJLoader.js';
 
 let camera, scene, renderer, group, isMouseDown = false, stars, geometry, material, mouseX, numberOfImages = 20;
 
